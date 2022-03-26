@@ -1,0 +1,17 @@
+{
+  "name": "weather-api",
+  "version": "1.0.0",
+  "description": "Weather API that gets the weather data for any location (city, country) by implementing promises, async and await. The geocoding of locations is done using the Mapbox API and the weather for geocodes is extracted using the Open Weather MAP api.",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "node-fetch": "^3.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Anup Rai",
+  "license": "ISC"
+}
